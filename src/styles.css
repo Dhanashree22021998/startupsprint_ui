@@ -1,0 +1,16 @@
+.main-container {
+    /* background-image: url('c:\Users\ASUS\Desktop\startup.jpg'); */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 100vh; /* Full height of viewport */
+  }
+  
+  /* General section styles */
+  section {
+    padding: 80px 0;
+  }
+  
+  section + section {
+    margin-top: 30px;
+  }
