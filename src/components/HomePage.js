@@ -10,9 +10,7 @@ function HomePage() {
     <div>
       <Header/>
       <Hero />
-      <span></span>
       <Features />
-      <br/>
       <FAQ />
       <Footer />
 
