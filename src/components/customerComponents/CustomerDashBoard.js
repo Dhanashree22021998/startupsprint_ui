@@ -1,8 +1,14 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
+import CustomerNavbar from './CustomerNavbar'
 
 function CustomerDashBoard() {
   return (
-    <div>CustomerDashBoard</div>
+    <div>
+      <CustomerNavbar/>
+      <Outlet/>
+    </div>
+    
   )
 }
 
